@@ -1,0 +1,56 @@
+body {
+
+}
+
+.header {
+    height: 100px;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio {
+    height: 100px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+}
+
+.project1 {
+    height: 300px;
+    background-color: brown;
+}
+
+.project2 {
+    height: 300px;
+    background-color: khaki;
+}
+
+.project3 {
+    height: 300px;
+    background-color: seagreen;
+}
+
+.contact {
+    height: 150px;
+    background-color: gray;
+}
