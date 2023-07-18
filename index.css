@@ -1,16 +1,16 @@
 body {
-
+    font-family: 'Montserrat';
 }
 
 .header {
-    height: 100px;
+    height: 50px;
     background-color: #232323;
     display: flex;
     justify-content: center;
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Proxima';
 }
 
 .main {
@@ -25,7 +25,7 @@ h1 {
 p {
     color: white;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Proxima';
 }
 
 .portfolio {
@@ -36,21 +36,33 @@ p {
 }
 
 .project1 {
+    display: flex;
+    flex-direction: row;
     height: 300px;
-    background-color: brown;
+    background-color: #232323;
 }
 
 .project2 {
+    display: flex;
+    flex-direction: row;
     height: 300px;
-    background-color: khaki;
+    background-color: #232323;
 }
 
 .project3 {
+    display: flex;
+    flex-direction: row;
     height: 300px;
-    background-color: seagreen;
+    background-color: #232323;
 }
 
-.contact {
+.footer {
     height: 150px;
-    background-color: gray;
+    background-color: red;
+}
+
+img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
 }
